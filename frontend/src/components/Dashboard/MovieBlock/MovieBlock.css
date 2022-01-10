@@ -1,0 +1,43 @@
+.movie-block {
+    width:80vw;
+    margin: 2% auto 2% auto;
+    border: solid 3px #05386b;
+    border-radius: 10px;
+    /* background-color: #edf5e1; */
+}
+
+.movie-block__title {
+    padding: 1.5%;
+    background-color: #05386b;
+    margin: 2% 2% 0 2%;
+    border-radius: 8px;
+    font-size: 1.8vw;
+    color: #5cdb95;
+    letter-spacing: 1px;
+}
+
+.more {
+    margin-bottom: 1%;
+    margin-right: 1%;
+    margin-left: 93.7%;
+    width: 4%;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 2px solid #05386b;
+    color: #05386b;
+}
+
+
+.movie-block__error {
+    text-align: center;
+    align-items: center;
+    margin: 2% auto 2% auto;
+    padding: 2%;
+    width: 50%;
+    color: #05386b;
+}
+
+.movie-block__error h4{
+    text-align: center;
+}

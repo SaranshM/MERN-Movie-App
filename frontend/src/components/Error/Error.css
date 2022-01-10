@@ -1,0 +1,27 @@
+.error {
+    padding: 3%;
+    width:30vw;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 100;
+    border: solid 3px #edf5e1;
+    border-radius: 8px;
+    background-color: #05386b;
+}
+
+.error h2 {
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 3%;
+    color: rgb(223, 26, 26);
+    letter-spacing: 3px;
+    font-size: 2vw;
+}
+
+.error p {
+    text-align: center;
+    font-weight: bold;
+    color: #edf5e1;
+}

@@ -1,0 +1,27 @@
+.app-header {
+    padding: 1.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 8px solid #edf5e1;
+    background-color:  #05386b;
+}
+
+.app-header__title-wrap {
+    flex: 3;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 1.7vw;
+    color: #5cdb95;
+    letter-spacing: 1.5px;
+}
+
+@media screen and (max-width: 650px) {
+    .app-header {
+        padding: 3%;
+    }
+
+    .app-header__title-wrap {
+        font-size: 3vw;
+    }
+}

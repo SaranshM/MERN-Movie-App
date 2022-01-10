@@ -1,0 +1,14 @@
+.loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    width: 70%;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.loader h1 {
+    text-align: center;
+    color: #edf5e1;
+}

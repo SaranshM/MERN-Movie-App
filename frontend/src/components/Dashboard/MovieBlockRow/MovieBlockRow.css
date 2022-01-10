@@ -1,0 +1,10 @@
+.movie-block-row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1%;
+}
+
+.movie-block-row > * {
+    flex: 1;
+}

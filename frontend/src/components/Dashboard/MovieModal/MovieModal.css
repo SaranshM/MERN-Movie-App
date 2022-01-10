@@ -1,0 +1,136 @@
+.movie-modal {
+    padding: 2%;
+    width:50vw;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    z-index: 100;
+    border: solid 4px #edf5e1;
+    border-radius: 8px;
+    background-color: #05386b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.poster {
+    flex: 2;
+    margin-right: 2%;
+}
+
+.poster-img {
+    width: 20vw;
+    height: 60vh;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px grey;
+    background-color: black;
+}
+
+.movie-details {
+    flex: 3;
+    background-color: #5cdb95;
+    padding: 1%;
+    border-radius: 10px;
+    color: #05386b;
+}
+
+.movie-details-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    position: relative;
+    top:4vh;
+    text-align: center;
+}
+
+.star.unstarred {
+    padding: 3%;
+    background-color: #FFDF00;
+    border: solid 2px ;
+    border-radius: 50%;
+    margin-left: 10%;
+    opacity: 0.5;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.star.starred {
+    padding: 3%;
+    background-color: #FFDF00;
+    border: solid 2px ;
+    border-radius: 50%;
+    margin-left: 10%;
+    opacity: 1;
+    transition: all 0.3s;
+    cursor: pointer;
+    box-shadow: 1px 1px 30px 7px #FFDF00;
+}
+
+.star.unstarred:focus {
+    background-color: #FFDF00;
+    box-shadow: 1px 1px 30px 7px #FFDF00;
+    opacity: 1;
+}
+
+.star.starred:focus {
+    background-color: #FFDF00;
+    opacity: 0.5;
+}
+
+.movie-details-overview {
+    padding: 2%;
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+.movie-details-info {
+    padding: 2%;
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+
+.movie-details-info p {
+    margin-bottom: 10%;
+}
+
+.movie-details-title {
+    font-size: 3vw;
+    max-width: 100%;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.movie-modal__error {
+    text-align: center;
+    align-items: center;
+    margin: 2% auto 2% auto;
+    padding: 2%;
+    border: solid 2px;
+    width: 50%;
+}
+
+.movie-modal__error h4{
+    text-align: center;
+}
+
+.line-title, .line-top {
+    position: relative;
+    top:2vh;
+    margin: 0 auto;
+    width:30%;
+    height: 0.6vh;
+    border-radius: 10px;
+    color: #edf5e1;
+    background-color: #edf5e1;
+}
+
+.line-top {
+    top: -2vh;
+}
+
+.movie-details-avg span {
+    color: #FFDF00;
+}

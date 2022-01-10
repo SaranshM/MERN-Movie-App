@@ -1,0 +1,45 @@
+.app-input {
+    margin-bottom: 6%;
+}
+
+.app-input label {
+    font-weight: bolder;
+    font-size: 1.3vw;
+    color: #05386b;
+    letter-spacing: 1px;
+}
+
+.app-input input {
+    font-size: 1.2vw;
+    padding: 2%;
+    margin-top: 2%;
+    width:95%;
+    border: 2px solid;
+    border-width: 0 0 2px 0;
+    background-color: transparent;
+    color: #05386b;
+    letter-spacing: 1px;
+    box-shadow: 0 0 0 0;
+}
+
+.app-input input:focus {
+    outline: none !important;
+}
+
+
+@media screen and (max-width: 950px) {
+    .app-input label {
+        font-size: 2vw;
+    }
+
+    .app-input input {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app-input label, .app-input input {
+        font-size: 3vw;
+    }
+
+}
