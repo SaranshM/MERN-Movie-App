@@ -10,3 +10,5 @@ Functionality:
   - Filter movies according to genre and keywords.
   - Display each movie's IMDB rating, description, launch date etc.
   - Star/Unstar movies for future reference.
+
+# Test commit
